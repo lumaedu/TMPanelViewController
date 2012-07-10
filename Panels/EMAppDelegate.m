@@ -3,7 +3,7 @@
 //  Panels
 //
 //  Created by Emerson Malca on 7/9/12.
-//  Copyright (c) 2012 Luma Education Inc. All rights reserved.
+//  Copyright (c) 2012 Emerson Malca. All rights reserved.
 //
 
 #import "EMAppDelegate.h"

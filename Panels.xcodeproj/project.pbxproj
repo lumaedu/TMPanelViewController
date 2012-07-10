@@ -15,6 +15,17 @@
 		C8EA965215ABF6DB0003BA4F /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA965115ABF6DB0003BA4F /* EMAppDelegate.m */; };
 		C8EA965515ABF6DB0003BA4F /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA965415ABF6DB0003BA4F /* EMViewController.m */; };
 		C8EA965815ABF6DB0003BA4F /* EMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EA965615ABF6DB0003BA4F /* EMViewController.xib */; };
+		C8EA966815ABF7850003BA4F /* TMPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA966015ABF7850003BA4F /* TMPanelViewController.m */; };
+		C8EA966915ABF7850003BA4F /* TMPanelPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA966215ABF7850003BA4F /* TMPanelPushViewController.m */; };
+		C8EA966A15ABF7850003BA4F /* TMTouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA966415ABF7850003BA4F /* TMTouchableView.m */; };
+		C8EA966B15ABF7850003BA4F /* TMPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA966615ABF7850003BA4F /* TMPanelView.m */; };
+		C8EA967315ABFA640003BA4F /* UIView+ShowAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA966E15ABFA640003BA4F /* UIView+ShowAnimations.m */; };
+		C8EA967415ABFA640003BA4F /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA967015ABFA640003BA4F /* UIView+Positioning.m */; };
+		C8EA967515ABFA640003BA4F /* UIView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA967215ABFA640003BA4F /* UIView+Utilities.m */; };
+		C8EA967815ABFB350003BA4F /* TMCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA967715ABFB340003BA4F /* TMCloseButton.m */; };
+		C8EA967A15ABFB6B0003BA4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EA967915ABFB6B0003BA4F /* QuartzCore.framework */; };
+		C8EA968215AC06CE0003BA4F /* EMGithubProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA968015AC06CD0003BA4F /* EMGithubProfileViewController.m */; };
+		C8EA968315AC06CE0003BA4F /* EMGithubProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EA968115AC06CE0003BA4F /* EMGithubProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +33,36 @@
 		C8EA964115ABF6DB0003BA4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8EA964315ABF6DB0003BA4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8EA964515ABF6DB0003BA4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C8EA964915ABF6DB0003BA4F /* Panels-Info.plist */ = {isa = PBXFileReference; path = "Panels-Info.plist"; sourceTree = "<group>"; };
+		C8EA964915ABF6DB0003BA4F /* Panels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Panels-Info.plist"; sourceTree = "<group>"; };
 		C8EA964B15ABF6DB0003BA4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8EA964D15ABF6DB0003BA4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8EA964F15ABF6DB0003BA4F /* Panels-Prefix.pch */ = {isa = PBXFileReference; path = "Panels-Prefix.pch"; sourceTree = "<group>"; };
-		C8EA965015ABF6DB0003BA4F /* EMAppDelegate.h */ = {isa = PBXFileReference; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		C8EA964F15ABF6DB0003BA4F /* Panels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Panels-Prefix.pch"; sourceTree = "<group>"; };
+		C8EA965015ABF6DB0003BA4F /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
 		C8EA965115ABF6DB0003BA4F /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
-		C8EA965315ABF6DB0003BA4F /* EMViewController.h */ = {isa = PBXFileReference; path = EMViewController.h; sourceTree = "<group>"; };
+		C8EA965315ABF6DB0003BA4F /* EMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
 		C8EA965415ABF6DB0003BA4F /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
 		C8EA965715ABF6DB0003BA4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EMViewController.xib; sourceTree = "<group>"; };
+		C8EA965F15ABF7850003BA4F /* TMPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPanelViewController.h; sourceTree = "<group>"; };
+		C8EA966015ABF7850003BA4F /* TMPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPanelViewController.m; sourceTree = "<group>"; };
+		C8EA966115ABF7850003BA4F /* TMPanelPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPanelPushViewController.h; sourceTree = "<group>"; };
+		C8EA966215ABF7850003BA4F /* TMPanelPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPanelPushViewController.m; sourceTree = "<group>"; };
+		C8EA966315ABF7850003BA4F /* TMTouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTouchableView.h; sourceTree = "<group>"; };
+		C8EA966415ABF7850003BA4F /* TMTouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTouchableView.m; sourceTree = "<group>"; };
+		C8EA966515ABF7850003BA4F /* TMPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPanelView.h; sourceTree = "<group>"; };
+		C8EA966615ABF7850003BA4F /* TMPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPanelView.m; sourceTree = "<group>"; };
+		C8EA966715ABF7850003BA4F /* TMPanelViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPanelViewConstants.h; sourceTree = "<group>"; };
+		C8EA966D15ABFA640003BA4F /* UIView+ShowAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShowAnimations.h"; sourceTree = "<group>"; };
+		C8EA966E15ABFA640003BA4F /* UIView+ShowAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShowAnimations.m"; sourceTree = "<group>"; };
+		C8EA966F15ABFA640003BA4F /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		C8EA967015ABFA640003BA4F /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		C8EA967115ABFA640003BA4F /* UIView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utilities.h"; sourceTree = "<group>"; };
+		C8EA967215ABFA640003BA4F /* UIView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utilities.m"; sourceTree = "<group>"; };
+		C8EA967615ABFB330003BA4F /* TMCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCloseButton.h; sourceTree = "<group>"; };
+		C8EA967715ABFB340003BA4F /* TMCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCloseButton.m; sourceTree = "<group>"; };
+		C8EA967915ABFB6B0003BA4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C8EA967F15AC06CD0003BA4F /* EMGithubProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGithubProfileViewController.h; sourceTree = "<group>"; };
+		C8EA968015AC06CD0003BA4F /* EMGithubProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMGithubProfileViewController.m; sourceTree = "<group>"; };
+		C8EA968115AC06CE0003BA4F /* EMGithubProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMGithubProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EA967A15ABFB6B0003BA4F /* QuartzCore.framework in Frameworks */,
 				C8EA964215ABF6DB0003BA4F /* UIKit.framework in Frameworks */,
 				C8EA964415ABF6DB0003BA4F /* Foundation.framework in Frameworks */,
 				C8EA964615ABF6DB0003BA4F /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +100,7 @@
 		C8EA964015ABF6DB0003BA4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8EA967915ABFB6B0003BA4F /* QuartzCore.framework */,
 				C8EA964115ABF6DB0003BA4F /* UIKit.framework */,
 				C8EA964315ABF6DB0003BA4F /* Foundation.framework */,
 				C8EA964515ABF6DB0003BA4F /* CoreGraphics.framework */,
@@ -77,12 +111,17 @@
 		C8EA964715ABF6DB0003BA4F /* Panels */ = {
 			isa = PBXGroup;
 			children = (
+				C8EA966C15ABFA440003BA4F /* Categories */,
+				C8EA965E15ABF76F0003BA4F /* TMPanelViewController */,
 				C8EA965015ABF6DB0003BA4F /* EMAppDelegate.h */,
 				C8EA965115ABF6DB0003BA4F /* EMAppDelegate.m */,
 				C8EA965315ABF6DB0003BA4F /* EMViewController.h */,
 				C8EA965415ABF6DB0003BA4F /* EMViewController.m */,
 				C8EA965615ABF6DB0003BA4F /* EMViewController.xib */,
 				C8EA964815ABF6DB0003BA4F /* Supporting Files */,
+				C8EA967F15AC06CD0003BA4F /* EMGithubProfileViewController.h */,
+				C8EA968015AC06CD0003BA4F /* EMGithubProfileViewController.m */,
+				C8EA968115AC06CE0003BA4F /* EMGithubProfileViewController.xib */,
 			);
 			path = Panels;
 			sourceTree = "<group>";
@@ -96,6 +135,37 @@
 				C8EA964F15ABF6DB0003BA4F /* Panels-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8EA965E15ABF76F0003BA4F /* TMPanelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C8EA965F15ABF7850003BA4F /* TMPanelViewController.h */,
+				C8EA966015ABF7850003BA4F /* TMPanelViewController.m */,
+				C8EA966115ABF7850003BA4F /* TMPanelPushViewController.h */,
+				C8EA966215ABF7850003BA4F /* TMPanelPushViewController.m */,
+				C8EA966315ABF7850003BA4F /* TMTouchableView.h */,
+				C8EA966415ABF7850003BA4F /* TMTouchableView.m */,
+				C8EA966515ABF7850003BA4F /* TMPanelView.h */,
+				C8EA966615ABF7850003BA4F /* TMPanelView.m */,
+				C8EA966715ABF7850003BA4F /* TMPanelViewConstants.h */,
+				C8EA967615ABFB330003BA4F /* TMCloseButton.h */,
+				C8EA967715ABFB340003BA4F /* TMCloseButton.m */,
+			);
+			name = TMPanelViewController;
+			sourceTree = "<group>";
+		};
+		C8EA966C15ABFA440003BA4F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C8EA966D15ABFA640003BA4F /* UIView+ShowAnimations.h */,
+				C8EA966E15ABFA640003BA4F /* UIView+ShowAnimations.m */,
+				C8EA966F15ABFA640003BA4F /* UIView+Positioning.h */,
+				C8EA967015ABFA640003BA4F /* UIView+Positioning.m */,
+				C8EA967115ABFA640003BA4F /* UIView+Utilities.h */,
+				C8EA967215ABFA640003BA4F /* UIView+Utilities.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +196,7 @@
 			attributes = {
 				CLASSPREFIX = EM;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Luma Education Inc.";
+				ORGANIZATIONNAME = "Emerson Malca";
 			};
 			buildConfigurationList = C8EA963715ABF6DB0003BA4F /* Build configuration list for PBXProject "Panels" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -152,6 +222,7 @@
 			files = (
 				C8EA964C15ABF6DB0003BA4F /* InfoPlist.strings in Resources */,
 				C8EA965815ABF6DB0003BA4F /* EMViewController.xib in Resources */,
+				C8EA968315AC06CE0003BA4F /* EMGithubProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +236,15 @@
 				C8EA964E15ABF6DB0003BA4F /* main.m in Sources */,
 				C8EA965215ABF6DB0003BA4F /* EMAppDelegate.m in Sources */,
 				C8EA965515ABF6DB0003BA4F /* EMViewController.m in Sources */,
+				C8EA966815ABF7850003BA4F /* TMPanelViewController.m in Sources */,
+				C8EA966915ABF7850003BA4F /* TMPanelPushViewController.m in Sources */,
+				C8EA966A15ABF7850003BA4F /* TMTouchableView.m in Sources */,
+				C8EA966B15ABF7850003BA4F /* TMPanelView.m in Sources */,
+				C8EA967315ABFA640003BA4F /* UIView+ShowAnimations.m in Sources */,
+				C8EA967415ABFA640003BA4F /* UIView+Positioning.m in Sources */,
+				C8EA967515ABFA640003BA4F /* UIView+Utilities.m in Sources */,
+				C8EA967815ABFB350003BA4F /* TMCloseButton.m in Sources */,
+				C8EA968215AC06CE0003BA4F /* EMGithubProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
