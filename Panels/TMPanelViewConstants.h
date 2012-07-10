@@ -3,7 +3,7 @@
 //  TutorMe
 //
 //  Created by Emerson Malca on 4/3/12.
-//  Copyright (c) 2012 Emerson Malca. All rights reserved.
+//  Copyright (c) 2012 Luma Education. All rights reserved.
 //
 
 #ifndef TutorMe_TMPanelViewConstants_h
